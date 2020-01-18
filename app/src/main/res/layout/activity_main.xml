@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#DEF3FD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+
+        android:textColor="#6DBCE1"
+        android:fontFamily="Segoe UI font"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"/>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:background="@drawable/bgm"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For better results using the real name is recommended. However, each time during the usage of any feature, you can display or hide your name, picture, mobile number, and email."
+            android:textColor="#BFBDBD"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+
+
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:maxLength="13"
+            android:digits="0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertzuiopasdfghjklyxcvbnm_-.$@"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Only letters, digits, _ , - , . , $ and @ are allowed."
+            android:textColor="#BFBDBD"
+
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minimum 8 characters."
+            android:textColor="#BFBDBD"
+
+            android:id="@+id/mchar"
+            android:layout_marginLeft="30dp"
+            />
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age or DoB"
+            android:textSize="8dp"
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+            android:textSize="12dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="8dp"
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="50dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="8dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="8dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textSize="8dp"/>
+        </RadioGroup>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail is required to recover your password"
+            android:textColor="#BFBDBD"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:maxLength="13"
+            android:digits="0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertzuiopasdfghjklyxcvbnm_-!$@"
+            />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+                android:textColor="#BFBDBD"
+                android:id="@+id/textvieww"
+
+            android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+
+            android:textColor="#6DBCE1"
+            android:fontFamily="Segoe UI font"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#727272"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mybutton"
+                android:text="Next"
+
+                android:textColor="#FAF6F6"
+                android:layout_marginRight="50dp"
+                />
+
+        </RelativeLayout>-->
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/mybutton"
+                android:text="Next"
+                android:textColor="#FFFF"
+                android:layout_gravity="right"
+                android:layout_marginRight="50dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>
